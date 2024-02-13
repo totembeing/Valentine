@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 90%;
+    width: 90%;
+    border: 7px solid sandybrown;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gif {
+    height: 250px;
+    width: 300px;
+    background: url(https://i.pinimg.com/originals/6e/a6/b7/6ea6b7606928c6ad31d2e0a508bfc2f0.gif) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.askOutText > p {
+    font-family: 'Chillax', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.yesButton, .noButton {
+    font-family: 'Chillax', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: transparent;
+    border: 3px solid sandybrown;
+    border-radius: 7px;
+}
